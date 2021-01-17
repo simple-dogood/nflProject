@@ -22,7 +22,7 @@ def home(request):
 		newForm = form.save(commit=False)
 		newForm.save()
 
-		player_list = ['Bdoc','Danna','Craft','Leo','McGill','Lee']
+		player_list = ['Bdoc','Matty','Mac','Mullen','Vitola','Pecsi']
 		full_list = []
 		for p in player_list:
 			full_list.append(lastPick(p))
