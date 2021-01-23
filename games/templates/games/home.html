@@ -209,12 +209,14 @@
       <th>Player</th>
       <th>Game</th>
       <th>Pick</th>
+       <th>Over/Under</th>
     </thead>
     {% for p in picks.all %}
   <tr>
     <td>{{p.player}}</td>
     <td>{{p.game}}</td>
     <td>{{p.pick}}</td>
+    <td>{{p.ou}}</td>
   </tr>
     {% endfor %}
 
